@@ -1,0 +1,23 @@
+.container{
+    width: 100vw;
+
+}
+
+form{
+    margin: 0 auto;
+    background-color: aqua;
+    width: 400px;
+    text-align: center;
+    margin-top: 100px;
+    height: 400px;
+    overflow: hidden;
+}
+input{
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid gray;
+    overflow: hidden;
+   
+}

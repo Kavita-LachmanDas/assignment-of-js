@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- // 1. Show an alert box on click on a link. -->
+    <a href="https://www.linkedin.com/in/kavita-luhana-0a31842ab/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bi5k4cEUWT2%2Bz8z136Q9bSQ%3D%3D"
+     onclick="alert('welcome')">click me</a>
+
+
+     <!-- 2. Display some Mobile images in browser. On click on an 
+     image Show the message in alert to user. -->
+     
+
+<div class="main">
+    <img src="https://www.winstore.pk/cdn/shop/products/QjLFaeJKbs.jpg?v=1640450153" alt="" width="200px" onclick="purchase()">
+    <img src="https://images.priceoye.pk/tecno-spark-10-pakistan-priceoye-jookw.jpg" alt=""  width="200px" onclick="purchase()">
+    <img src="https://media.wisemarket.com.pk/mobile-app/collection/product/vivo-y28-54.webp" alt=""  width="200px" onclick="purchase()">
+    <img src="https://www.winstore.pk/cdn/shop/products/YRTFUREtA8_91e11c88-eb04-4a99-a727-7eab57103510_1.jpg?v=1643609482" onclick="purchase()" width="200px" alt="">
+</div>
+
+
+<!-- 3. Display 10 student records in table and each row should contain a delete 
+button. If you click on a button to delete a record, entire row should be 
+deleted.  -->
+
+
+<h2>Before delete</h2>
+
+<table>
+    <tr>
+      <th>Index</th>
+      <th>Name</th>
+      <th>Class</th>
+      <th>button </th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>Jhone</td>
+        <td>10</td>
+        <td><button>Delete</button></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Doe</td>
+        <td>9</td>
+        <td><button>Delete</button></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Jame</td>
+        <td>10</td>
+        <td><button>Delete</button></td>
+    </tr>
+    <tr >
+        <td>3</td>
+        <td>Mark</td>
+        <td>8</td>
+        <td><button>Delete</button></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Jhon</td>
+        <td>7</td>
+        <td><button>Delete</button></td>
+    </tr>
+</table>
+<p>After click on delete button on “Mark ” row</p>
+
+
+
+
+
+
+
+
+
+<table>
+    <tr>
+      <th>Index</th>
+      <th>Name</th>
+      <th>Class</th>
+      <th>button </th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>Jhone</td>
+        <td>10</td>
+        <td><button>Delete</button></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Doe</td>
+        <td>9</td>
+        <td><button>Delete</button></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Jame</td>
+        <td>10</td>
+        <td><button>Delete</button></td>
+    </tr>
+    <tr id="del">
+        <td>3</td>
+        <td>Mark</td>
+        <td>8</td>
+        <td onclick=" delette()"><button>Delete</button></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Jhon</td>
+        <td>7</td>
+        <td><button>Delete</button></td>
+    </tr>
+</table>
+
+
+
+
+
+<!-- 
+4. Display an image in browser. Change the picture on mouseover and set the
+first picture on mouseout -->
+
+<img id="imm" src="https://cdn.openart.ai/published/XRG9JXD1MroSuiL4n2hA/buS-EQbh_ANaf_raw.jpg" alt=""
+ onmouseover="src='https:\\static.vecteezy.com/system/resources/previews/026/829/465/non_2x/beautiful-girl-with-autumn-leaves-photo.jpg'" width="200px"
+ onmouseout="src='https:\\cdn.openart.ai/published/XRG9JXD1MroSuiL4n2hA/buS-EQbh_ANaf_raw.jpg'"
+ >
+
+
+ <!-- 5. Show a counter in browser. Counter should increase on click on increase 
+button and decrease on click on decrease button. And show updated counter 
+value in browser. -->
+
+
+
+
+<span id="counter">0</span>
+<button id="increase" onclick="task('increase')">increase</button>
+<button id="decrease" onclick="task('decrease')">decrease</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
